@@ -43,18 +43,7 @@ main {
     }
 }
 
-aside {
-    background: linear-gradient(to bottom,
-            #1a1a4e 0%,
-            #2d2a6e 25%,
-            #3d3a8e 50%,
-            #2a2a5e 75%,
-            #0d0d2b 100%);
-    min-height: 100vh;
-    overflow: hidden;
-}
-
-input, select {
+input, select, textarea {
     font: var(--text);
     color: var(--text-primary);
     padding: 0.25rem;
@@ -74,9 +63,18 @@ input, select {
     }
 }
 
+select:focus{
+    background-image: transform scaleY(2);
+}
+
 label {
     font: var(--h2);
     color: var(--text-primary);
     font-weight: 600;
     margin-bottom: 0.25rem;
+}
+
+button {
+    background: none;
+    border: none;
 }

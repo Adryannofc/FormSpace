@@ -27,3 +27,15 @@ fieldset {
     display: flex;
     flex-direction: column;
 }
+
+button[type="submit"] {
+    background-color: #101828;
+    font: var(--h2);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    &:hover {
+        background-color: #06004d;
+        box-shadow: 0 5px 10px #1018282a;
+    }
+}
