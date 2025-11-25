@@ -120,7 +120,7 @@ aside {
     gap: 1rem;
     color: #fff;
     background-color: #1E293D;
-    padding: 24px;
+    padding: 24px 40px;
     border-radius: 20px;
     border: 1px solid #394867;
     
@@ -129,7 +129,6 @@ aside {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 0.1rem;
 
         h4 {
             font: var(--text);
